@@ -1,4 +1,4 @@
-let str: string = ' dirty string   ';
+let str: string = 'dirty string';
 const s: string = str.trim();
 console.log(s);
 
