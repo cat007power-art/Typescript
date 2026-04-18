@@ -1,18 +1,8 @@
-let s: string = 'hello world';
-const s1: string = s.toUpperCase();
-console.log(s1);
+let s1: string = 'hello world';
+console.log(s1.length);
 
-s = 'lorem ipsum';
-const s2: string = s.toUpperCase();
-console.log(s2);
+let s2: string = 'lorem ipsum';
+console.log(s2.length);
 
-s = 'javascript is cool';
-const s3: string = s.toUpperCase();
-console.log(s3);
-
-const strings: string[] = [s1, s2, s3];
-for (const str of strings) {
-    console.log(str);
-}
-
-
+let s3: string = 'javascript is cool';
+console.log(s3.length);
