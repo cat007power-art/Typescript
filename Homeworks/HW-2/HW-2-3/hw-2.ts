@@ -13,7 +13,6 @@ interface Recipe {
     instructions: string[];
     image: string;
 }
-
 interface RecipesResponse {
     recipes: Recipe[];
 }
